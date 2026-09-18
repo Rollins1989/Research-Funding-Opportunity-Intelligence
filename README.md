@@ -83,6 +83,31 @@ pip install pandas numpy matplotlib openpyxl jupyter
 
 This is an analytics portfolio project, not a live grant-discovery service. The modeled records are synthetic and the notebook uses generated deadlines/statuses. For production use, grant data would need authoritative source URLs, update timestamps, eligibility validation, and automated ingestion from official funding portals.
 
+## Production-Ready Project Structure
+
+The repository now separates reusable logic from the notebook:
+
+```text
+data/raw/          # clean source/demo dataset
+src/               # reusable data-generation and analytics code
+tests/             # automated validation of core analytics
+```
+
+Run the test suite with:
+
+```bash
+pip install -r requirements.txt
+pytest -q
+```
+
+Generate the deterministic dataset with:
+
+```bash
+python src/generate_data.py
+```
+
+The notebook remains the presentation layer, while `src/` contains reusable functions that can be tested and extended into an API or scheduled pipeline.
+
 ## Outcome
 
 The project demonstrates a practical analytics workflow from structured research-funding data to SQL analysis, deadline intelligence, researcher matching, visual reporting, and executive communication.
