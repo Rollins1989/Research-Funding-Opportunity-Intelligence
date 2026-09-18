@@ -1,0 +1,151 @@
+Grant_ID,Agency,Grant_Name,Funding_Amount,Research_Area,Deadline,Eligibility,Duration_Months,Status,Days_Left
+1,DST,Health Innovation Program,13500000,Biotechnology,2026-11-09,Faculty,24,Closed,143
+2,Gates Foundation,Genomics Research Fund,2600000,Genomics,2026-08-02,Universities,12,Open,44
+3,Gates Foundation,Innovative Research Grant,29700000,Precision Medicine,2026-10-27,Faculty + Scientists,60,Open,130
+4,NIH,Health Innovation Program,42400000,Precision Medicine,2026-07-21,Faculty + Scientists,24,Under Review,32
+5,CSIR,Translational Research Program,50000000,Vaccines,2027-01-06,Faculty,12,Under Review,201
+6,DST,Strategic Research Scheme,31900000,Bioinformatics,2026-11-30,Faculty + Scientists,12,Closed,164
+7,DST,Young Investigator Award,29200000,Cancer Research,2026-12-15,Research Institutes,60,Closed,179
+8,ICMR,Innovative Research Grant,34800000,Genomics,2026-11-11,Faculty,36,Open,145
+9,DST,Health Innovation Program,24200000,Cancer Research,2027-06-08,Universities,36,Under Review,354
+10,ANRF,Health Innovation Program,36900000,Drug Discovery,2027-06-14,Startups,12,Closed,360
+11,BIRAC,Translational Research Program,9300000,Agricultural Biotechnology,2027-03-11,Research Institutes,48,Closed,265
+12,Gates Foundation,Strategic Research Scheme,44100000,Drug Discovery,2026-08-15,Faculty,24,Under Review,57
+13,WHO,Young Investigator Award,11800000,Public Health,2027-05-04,Universities,36,Closed,319
+14,NIH,International Collaboration Grant,8300000,Cancer Research,2026-11-30,Universities,24,Closed,164
+15,Gates Foundation,Health Innovation Program,39200000,Agricultural Biotechnology,2027-05-13,Startups,48,Under Review,328
+16,ANRF,Precision Medicine Initiative,27000000,Drug Discovery,2027-03-27,Faculty,12,Open,281
+17,BIRAC,Genomics Research Fund,31500000,Vaccines,2026-08-19,Faculty + Scientists,48,Closed,61
+18,NIH,Health Innovation Program,29300000,Agricultural Biotechnology,2026-07-23,Startups,12,Under Review,34
+19,ANRF,Health Innovation Program,23200000,Genomics,2026-10-06,Faculty,48,Closed,109
+20,CSIR,Precision Medicine Initiative,26900000,Agricultural Biotechnology,2026-09-10,Startups,36,Closed,83
+21,ICMR,Strategic Research Scheme,40000000,Vaccines,2026-10-08,Startups,60,Open,111
+22,ANRF,Innovative Research Grant,6700000,Immunology,2027-01-19,Universities,36,Open,214
+23,ICMR,Young Investigator Award,5300000,Precision Medicine,2027-03-23,Startups,12,Open,277
+24,BIRAC,Precision Medicine Initiative,14500000,Immunology,2027-04-14,Faculty + Scientists,60,Open,299
+25,Gates Foundation,Health Innovation Program,21400000,Drug Discovery,2027-06-15,Faculty + Scientists,36,Closed,361
+26,NIH,Translational Research Program,12500000,Genomics,2026-08-19,Faculty,36,Closed,61
+27,Gates Foundation,Translational Research Program,1300000,Drug Discovery,2026-08-23,Universities,12,Open,65
+28,DBT,Young Investigator Award,27300000,Bioinformatics,2026-11-16,Faculty + Scientists,36,Open,150
+29,Gates Foundation,International Collaboration Grant,13400000,Vaccines,2027-03-17,Universities,48,Open,271
+30,DST,Strategic Research Scheme,22600000,Cancer Research,2027-02-13,Faculty,48,Closed,239
+31,DST,Genomics Research Fund,38200000,Biotechnology,2027-01-07,Universities,12,Open,202
+32,ICMR,International Collaboration Grant,8100000,Agricultural Biotechnology,2027-02-19,Research Institutes,24,Under Review,245
+33,ICMR,International Collaboration Grant,42300000,Genomics,2027-04-25,Faculty,12,Closed,310
+34,Gates Foundation,Young Investigator Award,48400000,Biotechnology,2026-11-16,Faculty + Scientists,24,Under Review,150
+35,NIH,Genomics Research Fund,47200000,Drug Discovery,2026-08-17,Faculty + Scientists,24,Open,59
+36,WHO,International Collaboration Grant,15600000,Public Health,2027-02-19,Faculty + Scientists,60,Open,245
+37,ICMR,Translational Research Program,3900000,Public Health,2027-05-10,Faculty,60,Closed,325
+38,ANRF,Innovative Research Grant,30900000,Biotechnology,2027-03-19,Startups,60,Open,273
+39,DBT,Young Investigator Award,44500000,Agricultural Biotechnology,2026-10-21,Startups,12,Open,124
+40,ICMR,Young Investigator Award,49200000,Cancer Research,2027-05-05,Startups,24,Closed,320
+41,DBT,Young Investigator Award,22400000,Precision Medicine,2027-05-12,Startups,60,Under Review,327
+42,CSIR,Strategic Research Scheme,13200000,Drug Discovery,2026-11-30,Universities,48,Closed,164
+43,CSIR,Strategic Research Scheme,48500000,Immunology,2026-08-24,Faculty + Scientists,12,Closed,66
+44,DST,Translational Research Program,26900000,Genomics,2026-11-30,Research Institutes,24,Open,164
+45,ICMR,Health Innovation Program,9000000,Bioinformatics,2027-02-27,Research Institutes,60,Closed,253
+46,Gates Foundation,Health Innovation Program,48700000,Biotechnology,2026-09-09,Research Institutes,24,Open,82
+47,DST,Precision Medicine Initiative,14900000,Agricultural Biotechnology,2026-12-09,Universities,60,Closed,173
+48,ANRF,Health Innovation Program,26800000,Drug Discovery,2027-03-25,Faculty,36,Open,279
+49,WHO,Innovative Research Grant,1100000,Public Health,2027-01-04,Research Institutes,24,Open,199
+50,NIH,Genomics Research Fund,29700000,Agricultural Biotechnology,2026-07-22,Faculty,12,Closed,33
+51,BIRAC,Innovative Research Grant,43700000,Agricultural Biotechnology,2027-01-23,Startups,60,Open,218
+52,WHO,Innovative Research Grant,16700000,Vaccines,2027-01-20,Research Institutes,12,Open,215
+53,ICMR,Strategic Research Scheme,40900000,Genomics,2027-04-30,Startups,48,Closed,315
+54,BIRAC,Precision Medicine Initiative,41900000,Drug Discovery,2026-10-16,Faculty,48,Open,119
+55,ANRF,Translational Research Program,14600000,Cancer Research,2026-10-07,Faculty + Scientists,12,Open,110
+56,NIH,Translational Research Program,42800000,Drug Discovery,2027-03-10,Research Institutes,36,Open,264
+57,ICMR,Translational Research Program,21400000,Biotechnology,2027-01-02,Faculty,36,Under Review,197
+58,ANRF,Genomics Research Fund,35700000,Agricultural Biotechnology,2027-04-18,Faculty,36,Open,303
+59,CSIR,Health Innovation Program,2900000,Vaccines,2026-09-11,Faculty + Scientists,60,Under Review,84
+60,ANRF,Young Investigator Award,20700000,Cancer Research,2027-05-09,Research Institutes,24,Open,324
+61,WHO,Translational Research Program,19600000,Biotechnology,2027-02-23,Research Institutes,12,Closed,249
+62,ANRF,Health Innovation Program,26900000,Genomics,2026-12-23,Research Institutes,48,Under Review,187
+63,CSIR,Precision Medicine Initiative,10800000,Agricultural Biotechnology,2027-02-18,Universities,48,Closed,244
+64,CSIR,Innovative Research Grant,16500000,Cancer Research,2026-12-11,Faculty + Scientists,24,Closed,175
+65,ANRF,International Collaboration Grant,23600000,Immunology,2026-11-04,Faculty + Scientists,60,Closed,138
+66,BIRAC,Health Innovation Program,27300000,Genomics,2027-06-07,Research Institutes,60,Open,353
+67,ICMR,Translational Research Program,42200000,Public Health,2026-10-27,Faculty,24,Open,130
+68,ICMR,Young Investigator Award,24300000,Immunology,2027-02-15,Universities,60,Closed,241
+69,WHO,Genomics Research Fund,13400000,Immunology,2026-10-01,Faculty,12,Under Review,104
+70,ICMR,International Collaboration Grant,3500000,Vaccines,2027-04-29,Faculty,24,Under Review,314
+71,BIRAC,Strategic Research Scheme,49600000,Immunology,2027-03-01,Startups,60,Under Review,255
+72,Gates Foundation,Precision Medicine Initiative,39000000,Immunology,2027-03-18,Research Institutes,48,Open,272
+73,CSIR,International Collaboration Grant,33000000,Agricultural Biotechnology,2026-11-17,Faculty + Scientists,36,Open,151
+74,CSIR,Health Innovation Program,18100000,Drug Discovery,2026-12-28,Faculty,60,Open,192
+75,BIRAC,Genomics Research Fund,36500000,Drug Discovery,2026-10-04,Faculty,24,Under Review,107
+76,WHO,International Collaboration Grant,22200000,Bioinformatics,2026-08-18,Faculty + Scientists,24,Under Review,60
+77,DBT,Genomics Research Fund,25400000,Precision Medicine,2026-07-21,Research Institutes,36,Under Review,32
+78,WHO,Translational Research Program,25900000,Agricultural Biotechnology,2026-11-07,Faculty + Scientists,36,Under Review,141
+79,DBT,Strategic Research Scheme,35200000,Cancer Research,2027-02-10,Faculty + Scientists,24,Open,236
+80,Gates Foundation,Genomics Research Fund,31300000,Biotechnology,2027-05-02,Faculty,12,Closed,317
+81,WHO,International Collaboration Grant,10300000,Vaccines,2026-08-12,Faculty + Scientists,36,Under Review,54
+82,ICMR,Strategic Research Scheme,18200000,Immunology,2027-01-28,Faculty + Scientists,36,Under Review,223
+83,DST,Innovative Research Grant,39300000,Immunology,2027-04-20,Research Institutes,12,Open,305
+84,DST,Innovative Research Grant,49600000,Biotechnology,2026-11-21,Faculty,24,Closed,155
+85,BIRAC,Precision Medicine Initiative,25200000,Drug Discovery,2026-09-14,Universities,60,Under Review,87
+86,CSIR,Precision Medicine Initiative,32000000,Bioinformatics,2027-05-24,Universities,12,Under Review,339
+87,DST,Innovative Research Grant,48500000,Precision Medicine,2026-12-24,Faculty + Scientists,60,Under Review,188
+88,ICMR,Translational Research Program,6200000,Genomics,2026-12-19,Faculty,60,Closed,183
+89,DBT,Genomics Research Fund,34800000,Bioinformatics,2027-01-23,Startups,12,Closed,218
+90,ANRF,Genomics Research Fund,43100000,Biotechnology,2027-03-25,Faculty + Scientists,12,Under Review,279
+91,NIH,Genomics Research Fund,10000000,Vaccines,2027-04-11,Startups,36,Closed,296
+92,NIH,Genomics Research Fund,43200000,Immunology,2027-05-17,Research Institutes,36,Open,332
+93,DST,International Collaboration Grant,13400000,Public Health,2027-03-12,Startups,60,Closed,266
+94,WHO,Innovative Research Grant,26300000,Bioinformatics,2026-12-31,Faculty + Scientists,24,Open,195
+95,ANRF,Strategic Research Scheme,15300000,Public Health,2027-05-19,Startups,36,Open,334
+96,Gates Foundation,Young Investigator Award,13300000,Drug Discovery,2027-02-11,Startups,48,Open,237
+97,NIH,International Collaboration Grant,41500000,Immunology,2026-07-26,Research Institutes,12,Open,37
+98,WHO,Health Innovation Program,34900000,Drug Discovery,2027-05-11,Faculty + Scientists,36,Closed,326
+99,Gates Foundation,Genomics Research Fund,39100000,Bioinformatics,2027-04-25,Research Institutes,36,Closed,310
+100,NIH,Health Innovation Program,13800000,Public Health,2026-11-13,Universities,12,Under Review,147
+101,DST,Precision Medicine Initiative,10800000,Agricultural Biotechnology,2026-11-05,Research Institutes,48,Closed,139
+102,Gates Foundation,Health Innovation Program,6100000,Precision Medicine,2026-10-25,Universities,36,Under Review,128
+103,BIRAC,Innovative Research Grant,37200000,Public Health,2027-04-17,Research Institutes,24,Open,302
+104,DBT,Health Innovation Program,36700000,Agricultural Biotechnology,2026-09-20,Faculty,48,Open,93
+105,CSIR,International Collaboration Grant,23500000,Immunology,2027-01-08,Faculty,24,Under Review,203
+106,NIH,Young Investigator Award,21500000,Genomics,2027-03-26,Startups,12,Closed,280
+107,DBT,Precision Medicine Initiative,42500000,Vaccines,2027-05-02,Faculty,36,Open,317
+108,DST,Genomics Research Fund,32000000,Agricultural Biotechnology,2027-05-19,Universities,60,Closed,334
+109,WHO,International Collaboration Grant,16200000,Immunology,2027-05-15,Research Institutes,48,Closed,330
+110,DBT,Young Investigator Award,49500000,Precision Medicine,2026-11-01,Research Institutes,24,Closed,135
+111,DST,Translational Research Program,9800000,Vaccines,2027-04-26,Universities,12,Open,311
+112,WHO,International Collaboration Grant,15900000,Immunology,2026-08-03,Research Institutes,24,Closed,45
+113,CSIR,Young Investigator Award,36100000,Immunology,2026-11-14,Startups,36,Closed,148
+114,ICMR,Young Investigator Award,28800000,Cancer Research,2026-11-10,Research Institutes,24,Open,144
+115,DST,Precision Medicine Initiative,41500000,Biotechnology,2026-12-22,Startups,60,Under Review,186
+116,NIH,International Collaboration Grant,36200000,Genomics,2026-12-20,Research Institutes,48,Closed,184
+117,Gates Foundation,International Collaboration Grant,5100000,Immunology,2027-05-20,Faculty + Scientists,12,Closed,335
+118,ANRF,Health Innovation Program,2300000,Precision Medicine,2026-09-02,Startups,24,Closed,75
+119,DBT,Innovative Research Grant,40000000,Public Health,2026-10-15,Startups,48,Closed,118
+120,NIH,Precision Medicine Initiative,30900000,Public Health,2027-02-26,Faculty,48,Under Review,252
+121,ANRF,Strategic Research Scheme,17400000,Cancer Research,2026-09-09,Research Institutes,24,Under Review,82
+122,NIH,Genomics Research Fund,42600000,Public Health,2027-04-25,Faculty + Scientists,12,Open,310
+123,ANRF,Strategic Research Scheme,6900000,Public Health,2027-02-09,Faculty,60,Closed,235
+124,Gates Foundation,Genomics Research Fund,3700000,Immunology,2026-10-22,Research Institutes,60,Closed,125
+125,NIH,Innovative Research Grant,11400000,Immunology,2026-12-01,Universities,60,Under Review,165
+126,NIH,Young Investigator Award,2400000,Immunology,2027-06-05,Universities,60,Closed,351
+127,BIRAC,Innovative Research Grant,29200000,Public Health,2027-02-11,Universities,12,Open,237
+128,NIH,Precision Medicine Initiative,26500000,Genomics,2026-12-14,Research Institutes,60,Under Review,178
+129,NIH,Translational Research Program,24300000,Immunology,2027-04-26,Faculty + Scientists,24,Open,311
+130,Gates Foundation,Young Investigator Award,15100000,Vaccines,2027-02-15,Startups,36,Under Review,241
+131,DBT,Health Innovation Program,43800000,Public Health,2027-05-14,Faculty + Scientists,60,Open,329
+132,NIH,International Collaboration Grant,18600000,Agricultural Biotechnology,2027-01-04,Startups,60,Under Review,199
+133,NIH,Translational Research Program,36700000,Bioinformatics,2026-11-17,Faculty + Scientists,60,Open,151
+134,WHO,Strategic Research Scheme,39100000,Biotechnology,2027-03-17,Faculty + Scientists,48,Closed,271
+135,BIRAC,Innovative Research Grant,7400000,Immunology,2027-04-01,Research Institutes,60,Open,286
+136,NIH,International Collaboration Grant,1700000,Genomics,2026-09-29,Universities,48,Open,102
+137,NIH,Strategic Research Scheme,32900000,Public Health,2027-02-06,Research Institutes,12,Closed,232
+138,Gates Foundation,Strategic Research Scheme,33000000,Cancer Research,2027-03-24,Faculty,60,Closed,278
+139,DST,Health Innovation Program,12600000,Drug Discovery,2026-09-02,Faculty,48,Closed,75
+140,DST,Precision Medicine Initiative,36500000,Immunology,2026-12-18,Faculty,12,Under Review,182
+141,DBT,Strategic Research Scheme,20100000,Public Health,2027-02-23,Universities,24,Closed,249
+142,WHO,Precision Medicine Initiative,9700000,Precision Medicine,2026-10-15,Startups,12,Under Review,118
+143,ICMR,Precision Medicine Initiative,12800000,Immunology,2027-03-11,Faculty + Scientists,36,Under Review,265
+144,DBT,Health Innovation Program,35600000,Immunology,2027-04-23,Faculty,24,Under Review,308
+145,ANRF,Health Innovation Program,33700000,Precision Medicine,2027-02-20,Faculty + Scientists,36,Under Review,246
+146,ICMR,International Collaboration Grant,6400000,Cancer Research,2026-11-16,Startups,48,Under Review,150
+147,CSIR,Innovative Research Grant,43400000,Public Health,2027-02-05,Faculty,36,Closed,231
+148,DBT,International Collaboration Grant,43600000,Precision Medicine,2026-12-11,Startups,24,Under Review,175
+149,ICMR,Health Innovation Program,35700000,Drug Discovery,2026-09-26,Faculty,12,Under Review,99
+150,NIH,Strategic Research Scheme,38400000,Biotechnology,2026-09-23,Research Institutes,12,Under Review,96
