@@ -14,7 +14,7 @@ Research development teams need more than a list of grants. They need to answer:
 - Which opportunities match a researcher's research area and eligibility?
 - How can the same analysis be reproduced in SQL and Python?
 
-This project demonstrates that workflow with a clean separation between **data generation**, **reusable analytics**, **testing**, **SQL**, and the notebook/reporting layer.
+This project demonstrates that workflow with a clean separation between **data generation**, **reusable analytics**, **testing**, **SQL**, the notebook/reporting layer, and an interactive Streamlit dashboard.
 
 ## Project architecture
 
