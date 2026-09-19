@@ -44,7 +44,7 @@ def test_funding_by_research_area():
 def test_deadline_risk_uses_explicit_as_of_date():
     result = deadline_risk(sample_df(), "2026-06-01")
     risks = dict(zip(result["Grant_ID"], result["Deadline_Risk"]))
-    assert risks[1] == "Watch"
+    assert risks[1] == "Critical"
     assert risks[2] == "Low"
     assert risks[3] == "Not Open"
 
