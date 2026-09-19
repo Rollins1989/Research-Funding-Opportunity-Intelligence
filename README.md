@@ -1,5 +1,9 @@
 # Research Funding Opportunity Intelligence
 
+[![CI](https://github.com/Rollins1989/Research-Funding-Opportunity-Intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/Rollins1989/Research-Funding-Opportunity-Intelligence/actions/workflows/ci.yml)
+[![Dashboard Smoke Test](https://github.com/Rollins1989/Research-Funding-Opportunity-Intelligence/actions/workflows/dashboard.yml/badge.svg)](https://github.com/Rollins1989/Research-Funding-Opportunity-Intelligence/actions/workflows/dashboard.yml)
+
+
 An end-to-end **research-funding analytics portfolio project** that turns structured grant-opportunity data into agency portfolio analysis, research-area intelligence, deadline-risk monitoring, researcher-to-grant matching, SQL analytics, and executive reporting.
 
 > **Data disclaimer:** This repository uses synthetic/demo grant records for analytics practice. Funding amounts, deadlines, agencies, and opportunity names are not live funding announcements.
@@ -41,6 +45,12 @@ Research-Funding-Opportunity-Intelligence/
 ├── requirements.txt
 └── README.md
 ```
+
+## Live demo / deployment
+
+The dashboard is deployment-ready for Streamlit Community Cloud. In Streamlit Cloud, select this repository, branch `main`, and entrypoint `app.py`. The app regenerates its deterministic demo dataset when needed and does not require secrets or external APIs.
+
+> This is a demonstration deployment pattern, not a live grant feed. The repository intentionally keeps synthetic data clearly labeled.
 
 ## Core analytics
 
