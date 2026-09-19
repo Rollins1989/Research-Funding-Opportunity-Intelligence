@@ -1,116 +1,121 @@
 # Research Funding Opportunity Intelligence
 
-An end-to-end analytics project for monitoring research grant opportunities, funding portfolios, deadlines, and researcher-to-grant matching.
+An end-to-end **research-funding analytics portfolio project** that turns structured grant-opportunity data into agency portfolio analysis, research-area intelligence, deadline-risk monitoring, researcher-to-grant matching, SQL analytics, and executive reporting.
 
-> **Portfolio note:** The dataset is synthetic/demo data generated for analytics practice. Funding amounts, agency opportunities, and deadlines should not be treated as real-world funding announcements.
+> **Data disclaimer:** This repository uses synthetic/demo grant records for analytics practice. Funding amounts, deadlines, agencies, and opportunity names are not live funding announcements.
 
-## Business Problem
+## Why this project exists
 
-Research development teams manage hundreds of opportunities across government agencies and foundations. The challenge is turning a grant list into actionable intelligence: which agencies control the largest funding pools, which research areas have the most funding, which deadlines require attention, and which opportunities fit a researcher's domain.
+Research development teams need more than a list of grants. They need to answer:
 
-This project models that workflow using Python, Pandas, SQL/SQLite, and executive reporting.
+- Which agencies represent the largest modeled funding portfolios?
+- Which research areas receive the most modeled funding?
+- Which open opportunities have deadlines requiring attention?
+- Which opportunities match a researcher's research area and eligibility?
+- How can the same analysis be reproduced in SQL and Python?
 
-## What This Project Demonstrates
+This project demonstrates that workflow with a clean separation between **data generation**, **reusable analytics**, **testing**, **SQL**, and the notebook/reporting layer.
 
-- Data generation and structured grant-opportunity modeling
-- Exploratory data analysis with Pandas
-- Funding analysis by agency and research area
-- Deadline-risk monitoring
-- Researcher/faculty-to-grant matching
-- SQL analytics with SQLite
-- Executive KPI reporting
-- Exportable datasets and management reporting
+## Project architecture
+
+```text
+Research-Funding-Opportunity-Intelligence/
+├── data/
+│   └── raw/                         # source/demo data
+├── src/
+│   ├── generate_data.py             # deterministic synthetic data generator
+│   └── analytics.py                 # reusable analytics functions
+├── tests/
+│   └── test_analytics.py            # automated validation
+├── .github/
+│   └── workflows/
+│       └── ci.yml                   # GitHub Actions test pipeline
+├── Research Funding Opportunity Intelligence.ipynb
+├── Funding_Intelligence_Report.xlsx
+├── Director_Report.txt
+├── Agency_Funding.png
+├── Grant Project 1.png
+├── Grant Project 2.png
+├── grants.db
+├── Research_Funding_Dataset (1).xls
+├── requirements.txt
+└── README.md
+```
+
+## Core analytics
+
+The reusable module in `src/analytics.py` provides:
+
+| Function | Purpose |
+|---|---|
+| `load_grants()` | Load and normalize grant data |
+| `validate_schema()` | Validate required fields |
+| `funding_by_agency()` | Agency-level portfolio analysis |
+| `funding_by_research_area()` | Research-domain funding analysis |
+| `deadline_risk()` | Explicit-date deadline risk classification |
+| `match_researcher()` | Open-grant matching by research area/eligibility |
+| `load_to_sqlite()` | Persist the dataframe to SQLite |
+| `sql_agency_summary()` | Reproduce agency analysis through SQL |
 
 ## Dataset
 
-| Attribute | Value |
-|---|---:|
-| Grant opportunities | 150 |
-| Funding agencies | 9 |
-| Research areas | 10 |
-| Eligibility categories | 5 |
-| Grant statuses | 3 |
+The demo dataset contains 150 modeled opportunities across 9 agencies, 10 research areas, 5 eligibility categories, and 3 statuses.
 
-Core fields include:
+Core fields:
 
-`Grant_ID`, `Agency`, `Grant_Name`, `Funding_Amount`, `Research_Area`, `Deadline`, `Eligibility`, `Duration_Months`, and `Status`.
+`Grant_ID`, `Agency`, `Grant_Name`, `Funding_Amount`, `Research_Area`, `Deadline`, `Eligibility`, `Duration_Months`, `Status`.
 
-## Key Questions Answered
+The generator uses a fixed random seed so the dataset is reproducible.
 
-1. Which agencies represent the largest funding portfolios?
-2. Which research domains attract the most modeled funding?
-3. Which opportunities are open and approaching their deadlines?
-4. Which grants match a researcher's stated research area?
-5. Which opportunities should appear in an executive funding report?
-
-## Tech Stack
+## Tech stack
 
 - **Python:** Pandas, NumPy, Matplotlib
 - **Database:** SQLite
-- **Analytics:** SQL + dataframe analysis
-- **Reporting:** Excel, text executive report
-- **Environment:** Jupyter Notebook
+- **Testing:** pytest
+- **Reporting:** Excel + Jupyter
+- **CI:** GitHub Actions
 
-## Repository Structure
-
-| File | Purpose |
-|---|---|
-| `Research Funding Opportunity Intelligence.ipynb` | Main analysis workflow |
-| `Research_Funding_Dataset (1).xls` | Source/demo grant dataset |
-| `Funding_Intelligence_Report.xlsx` | Executive reporting workbook |
-| `grants.db` | SQLite database |
-| `Director_Report.txt` | Text-based executive summary |
-| `Agency_Funding.png` | Funding by agency visualization |
-| `Grant Project 1.png` | Project/report visual |
-| `Grant Project 2.png` | Project/report visual |
-
-## Reproducibility
-
-1. Clone the repository.
-2. Open the notebook in Jupyter.
-3. Run cells from top to bottom.
-4. The notebook generates the demo grant data deterministically with a fixed random seed.
-5. The SQL section rebuilds the SQLite `Grants` table from the dataframe.
-6. Outputs such as CSV exports, charts, and the director report are regenerated by the notebook.
-
-Recommended environment:
+## Run locally
 
 ```bash
-pip install pandas numpy matplotlib openpyxl jupyter
-```
+git clone https://github.com/Rollins1989/Research-Funding-Opportunity-Intelligence.git
+cd Research-Funding-Opportunity-Intelligence
 
-## Important Data Caveats
+python -m venv .venv
+# Windows
+.venv\\Scripts\\activate
+# macOS/Linux
+# source .venv/bin/activate
 
-This is an analytics portfolio project, not a live grant-discovery service. The modeled records are synthetic and the notebook uses generated deadlines/statuses. For production use, grant data would need authoritative source URLs, update timestamps, eligibility validation, and automated ingestion from official funding portals.
-
-## Production-Ready Project Structure
-
-The repository now separates reusable logic from the notebook:
-
-```text
-data/raw/          # clean source/demo dataset
-src/               # reusable data-generation and analytics code
-tests/             # automated validation of core analytics
-```
-
-Run the test suite with:
-
-```bash
 pip install -r requirements.txt
 pytest -q
-```
-
-Generate the deterministic dataset with:
-
-```bash
 python src/generate_data.py
 ```
 
-The notebook remains the presentation layer, while `src/` contains reusable functions that can be tested and extended into an API or scheduled pipeline.
+Then open the notebook:
 
-## Outcome
+```text
+Research Funding Opportunity Intelligence.ipynb
+```
 
-The project demonstrates a practical analytics workflow from structured research-funding data to SQL analysis, deadline intelligence, researcher matching, visual reporting, and executive communication.
+## Reproducibility and testing
+
+The analysis is intentionally separated from the notebook so the core logic can be tested and reused by a future API, scheduled pipeline, or dashboard.
+
+The CI workflow runs the test suite on pushes and pull requests to `main`.
+
+## Portfolio interpretation
+
+This project is best presented as an **analytics and decision-support prototype**, not as a live grant-discovery product. A production implementation would require authoritative source URLs, source-system identifiers, ingestion timestamps, change detection, eligibility validation, deduplication, authentication where required, and scheduled ingestion from official funding portals.
+
+## Current limitations
+
+- Synthetic data rather than live opportunities.
+- Deadline risk is deterministic and depends on an explicit analysis date.
+- Researcher matching currently uses exact research-area and optional eligibility matching; it is not semantic/LLM matching.
+- No live API ingestion or alerting is included.
+
+These limitations are deliberate: the repository demonstrates the analytics foundation without pretending that demo records are real funding intelligence.
 
 ## Author
 
